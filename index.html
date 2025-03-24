@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>唯有垂杨</title>
+    <style>
+      body 
+      {
+       background-image:url(网页背景图.jpg) ;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size: cover;
+      }
+      div1 
+      {
+        position: absolute;left: 0;right: 0;
+       text-align:center ;
+       font-size: 80px;
+       font-family: cursive;
+       font-weight: 400;
+       font-variant-position: unset;
+      }
+    #软件
+    {
+     position: relative;top: 300px;
+
+     border-collapse: collapse;
+    }
+    td 
+    {
+     padding: 12px;
+
+    }
+
+
+  #游戏  {
+     position: relative;top: 500px;
+
+     border-collapse: collapse;
+
+
+    }
+    td 
+    {
+     padding: 12px;
+
+
+
+    }
+    #相册
+    {
+     position: relative;top: 600px;
+
+     border-collapse: collapse;
+
+
+    }
+    td 
+    {
+     padding: 12px;
+
+
+
+    }
+
+    
+   .xxyy
+     {width: 100px;
+    height: 50px;
+       background-color: aqua;
+   color: blue;
+   font-style: italic;
+   font-size: 20px;
+   position: relative;
+
+    }
+.xxy 
+{
+    width: 100px;
+    height: 50px;
+  background-color: chartreuse;
+  color: rgb(146, 146, 7);
+font-style: oblique;
+  font-size: 20px;
+  position: relative;
+  top: 150px;
+}
+
+.xxx 
+{
+
+    width: 100px;
+    height: 50px;
+  background-color: coral;
+  color: rgb(83, 255, 80);
+font-style: italic;
+  font-size: 20px;
+  position: relative;
+  top: 300px;
+}
+.按钮事件 
+{
+
+  width: 100px;
+  height: 500px;
+  position: absolute;
+
+
+  top: 500px;
+}
+
+
+.注
+{
+
+font-size: 20px;
+color: rgb(244, 111, 40);
+position: absolute;
+right: 0;
+bottom: 0;
+top: 1800px;
+}
+
+    </style>
+  
+  </head>
+<body>
+ <div1>
+  上网，从这里开始
+ </div1>
+ <div2 id="randomSentence" style="position:absolute;left: 40%;top: 12%;"></div2>
+ <script>
+  var sentences =[
+    "今天是美好的一天",
+    "努力总会有回报",
+    "成功的关键在于相信自己有成功的能力。——拿破仑",
+    "生活的理想，就是为了理想的生活。———张闻天",
+    "在这个光怪陆离的世界上，没有人可以把日子过得行云流水。",
+    "心是最大的骗子，别人能骗你一时，而它却能骗你一辈子。",
+    "欲买桂花同载酒，终不似，少年游。",
+    "智慧不仅仅存在于知识之中，而且还存在于运用知识的能力。",
+    "抛弃时间的人，时间也抛弃他。",
+    "天才是百分之一的灵感加百分之九十九的汗水——爱迪生",
+    "人生天地之间，若白驹之过隙，忽然而已。——庄子",
+    "行到水穷处，坐看云起时——王维",
+    "会当凌绝顶，一览众山小——杜甫",
+    "纸上得来终觉浅，绝知此事要躬行。——陆游",
+    "梅须逊雪三分白，雪却输梅一段香。——卢梅坡"
+  ]
+  var randomIndex =Math.floor(Math.random()*sentences.length);
+  var randomSentence =sentences[randomIndex];
+  document.getElementById('randomSentence').innerHTML=randomSentence;
+ </script>
+
+<table id="软件"    style="margin: 0 auto;">
+  <tr>
+      <th>常用导航</th>
+  </tr>
+<tr>
+   <td>
+      <a href="https://www.douyin.com/"><img width="100" src="图标大全\抖音.jpeg" alt="抖音"></a>
+   </td>
+   <td>
+      <a href="https://m.kuaishou.com/"><img width="100" src="图标大全/快手.jpeg" alt="快手"></a>
+   </td>
+   <td>
+      <a href="https://weixin.qq.com/"><img width="100"  src="图标大全/微信.jpeg" alt="微信"></a>
+   </td>
+   <td><a href="https://im.qq.com/"><img width="100" src="图标大全\QQ.jpeg" alt="QQ"></a></td>
+</tr>
+<tr>
+  <td>   <a href="https://m.iqiyi.com/"> <img width="100"  src="图标大全/爱奇艺.jpeg" alt="爱奇艺"></a>  </td>
+  <td>   <a href="https://m.weibo.cn/"> <img width="100"  src="图标大全/微博.jpeg" alt="微博"></a>  </td>
+  <td>   <a href="https://m.dewu.com/"> <img width="100"  src="图标大全/得物.png" alt="得物"></a>  </td>
+  <td>   <a href="https://m.bilibili.com/"> <img width="100"  src="图标大全/哔哩哔哩.jpeg" alt="哔哩哔哩"></a>  </td>
+</tr>   
+<tr>
+  <td>   <a href="http://m.y.qq.com/"> <img width="100"  src="图标大全/QQ音乐.jpeg" alt="QQ音乐"></a>  </td>
+  <td>   <a href="https://www.youku.com/"> <img width="100"  src="图标大全/优酷视频.jpeg" alt="优酷视频"></a>  </td>
+  <td>   <a href="http://m.qddshu.com/"> <img width="100"  src="图标大全/起点读书.jpeg" alt="起点读书"></a>  </td>
+  <td>   <a href="https://www.doubao.com/chat/"> <img width="100"  src="图标大全/豆包.jpeg" alt="豆包"></a>  </td>
+</tr>   
+<tr>
+  <td>   <a href="https://m.huya.com/"> <img width="100"  src="图标大全/虎牙直播.jpeg" alt="虎牙直播"></a>  </td>
+  <td>   <a href="https://m.mgtv.com/home/"> <img width="100"  src="图标大全/芒果TV.jpeg" alt="芒果TV"></a>  </td>
+  <td>   <a href="https://v.qq.com/"> <img width="100"  src="图标大全/腾讯视频.jpeg" alt="腾讯视频"></a>  </td>
+  <td>   <a href="https://m.kugou.com/"> <img width="100"  src="图标大全/酷狗.jpeg" alt="酷狗"></a>  </td>
+</tr>   
+<table id="游戏" style="margin: 0 auto;">
+
+  <tr>
+    <th>常玩游戏</th>
+  </tr>
+   <tr>
+
+     <td>   <a href="https://pvp.qq.com/"> <img width="100"  src="常玩游戏/王者荣耀.jpeg" alt="王者荣耀"></a>  </td>
+     <td>   <a href=https://lol.qq.com/""> <img width="100"  src="常玩游戏/英雄联盟.jpeg" alt="英雄联盟"></a>  </td>
+     <td>   <a href="https://val.qq.com/main.html"> <img width="100"  src="常玩游戏/无畏契约.jpeg" alt="无畏契约"></a>  </td>
+     <td>   <a href="https://jcc.qq.com/m/m202206/#/"> <img width="100"  src="常玩游戏/金铲铲之战.jpeg" alt="金铲铲之战"></a>  </td>
+   </tr>
+  <tr>
+    <td>   <a href="https://ys.mihoyo.com/main/m/"> <img width="100"  src="常玩游戏/原神.jpeg" alt="原神"></a>  </td>
+    <td>   <a href=https://sr.mihoyo.com/news""> <img width="100"  src="常玩游戏/崩坏星穹铁道.jpeg" alt="崩坏星穹铁道"></a>  </td>
+    <td>   <a href="https://sky.163.com/m/2021/yhj/"> <img width="100"  src="常玩游戏/光遇.jpeg" alt="光遇"></a>  </td>
+    <td>   <a href="http://party.163.com/m/"> <img width="100"  src="常玩游戏/蛋仔派对.jpeg" alt="蛋仔派对"></a>  </td>
+  </tr>
+
+   <tr>
+    <td>   <a href="http://id5.163.com/m/"> <img width="100"  src="常玩游戏/第五人格.jpeg" alt="第五人格"></a>  </td>
+    <td>   <a href="http://mc.163.com/m/"> <img width="100"  src="常玩游戏/我的世界.jpeg" alt="我的世界"></a>  </td>
+    <td>   <a href="https://terraria.org/"> <img width="100"  src="常玩游戏/泰拉瑞亚.jpeg" alt="泰拉瑞亚"></a>  </td>
+    <td>   <a href="https://huoying.qq.com/"> <img width="100"  src="常玩游戏/火影忍者.jpeg" alt="火影忍者"></a>  </td>
+   </tr>
+
+   <script>
+    const username =prompt("请输入你的名字")
+    if (username!==null)
+{
+  alert('欢迎您,'+username+"!")
+    
+       
+    
+}else {
+    alert('欢迎您');
+}
+</script>
+
+    </table>
+<table id="相册" style="margin: 0 auto;">  
+  <tr>
+    <th>个人相册</th>
+  </tr>
+<tr>
+  <td>
+  <a href="相册.html">
+    <img src="1742220791117_93.webp" width="100"   alt="该图片无法显示">
+  </a></td>
+</tr>
+</table>
+
+<div  class="按钮事件">
+  <button onclick="click_event1()" class="xxyy">
+戳我 
+  </button>
+
+  <script>
+function click_event1() 
+{
+    alert('暂时的困境只是成功前的伪装，你已经熬过了那么多艰难时刻，这次也一定行，胜利就在不远处等你。');
+
+}
+
+</script>
+
+<button onclick="click_event2()" class="xxy">
+  戳我 
+      </button>
+  
+      <script>
+    function click_event2() 
+    {
+        alert('每遇棘荆心愈勇，常经磨砺意方遒。他年若遂凌云志，笑看山川岁月悠 。');
+  
+    }
+    
+  </script>
+
+
+<button onclick="click_event3()" class="xxx">
+  戳我 
+      </button>
+  
+      <script>
+    function click_event3() 
+    {
+        alert('一时的安逸很诱人，但别让它偷走你的未来。现在的努力，才是通往美好生活的钥匙 。');
+  
+    }
+    
+  </script>
+  </div>
+
+<div class="注">
+<strong>本人制作的第一个网站，不喜勿喷</strong>
+</div>
+
+
+</body>
+</html>
